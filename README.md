@@ -26,17 +26,6 @@ These instructions will help you set up and run the Gallery Handler app on your 
 - Android SDK
 - Git
 
-### Installation
-
-1. Clone the repository to your local machine.
-
-   ```shell
-   git clone https://github.com/yourusername/gallery-handler.git
-   ```
-
-2. Open the project in Android Studio.
-
-3. Build and run the app on an emulator or physical device.
 
 ## Usage
 
