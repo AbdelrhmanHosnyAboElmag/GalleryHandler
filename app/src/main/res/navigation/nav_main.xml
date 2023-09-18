@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/parentFragment">
+
+    <fragment
+        android:id="@+id/parentFragment"
+        android:name="com.example.galleryhandler.ui.fragment.ParentFragment"
+        android:label="ParentFragment" >
+        <action
+            android:id="@+id/action_parentFragment_to_detailsPictureFragment"
+            app:destination="@id/detailsPictureFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsPictureFragment"
+        android:name="com.example.galleryhandler.ui.fragment.DetailsPictureFragment"
+        android:label="DetailsPictureFragment" />
+</navigation>
